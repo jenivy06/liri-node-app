@@ -42,4 +42,28 @@ switch (userCommand) {
     break
 }
 
+//run showConcertInfo function
+function showConcertInfo() {
+    axios
+    .get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp")
+    .then(function(response){
+        console.log(response.data);
+        for (var i = 0; i < response.data.length; i++) {
+            var datetime = response.data[i].datetime; 
+            var dateArr = datetime.split('T'); 
+
+            var concertResults = 
+            "--------------------------------------------------------------------" +
+            "\nVenue Name: " + response.data[i].venue.name + 
+            "\nVenue Location: " + response.data[i].venue.city +
+            "\nDate of the Event: " + moment(dateArr[0], "MM-DD-YYYY"); //dateArr[0] should be the date separated from the time
+    console.log(concertResults);
+        }
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
+}
+// run showSongInfo function
+
 
