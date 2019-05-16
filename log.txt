@@ -1,17 +1,148 @@
---------------------------
-Movie Title: Click
-Year of Release: 2006
-IMDB Rating: 6.4
-Rotten Tomatoes Rating: 33%
-Country Produced: USA
-Language: English, Portuguese, Japanese
-Plot: A workaholic architect finds a universal remote that allows him to fast-forward and rewind to different parts of his life. Complications arise when the remote starts to overrule his choices.
-Actors/Actresses: Adam Sandler, Kate Beckinsale, Christopher Walken, David Hasselhoff--------------------------
-Movie Title: Click
-Year of Release: 2006
-IMDB Rating: 6.4
-Rotten Tomatoes Rating: 33%
-Country Produced: USA
-Language: English, Portuguese, Japanese
-Plot: A workaholic architect finds a universal remote that allows him to fast-forward and rewind to different parts of his life. Complications arise when the remote starts to overrule his choices.
-Actors/Actresses: Adam Sandler, Kate Beckinsale, Christopher Walken, David Hasselhoff
+﻿--------------------------
+Venue Name: The Forum
+Venue Location: Los Angeles
+Date of the Event: 05/16/19--------------------------
+Venue Name: Pepsi Center
+Venue Location: Denver
+Date of the Event: 05/16/19--------------------------
+Venue Name: BOK Center
+Venue Location: Tulsa
+Date of the Event: 05/16/19--------------------------
+Venue Name: AT&T Center
+Venue Location: San Antonio
+Date of the Event: 05/16/19--------------------------
+Venue Name: Von Braun Center Propst Arena
+Venue Location: Huntsville
+Date of the Event: 05/16/19--------------------------
+Venue Name: KFC Yum! Center
+Venue Location: Louisville
+Date of the Event: 05/16/19--------------------------
+Venue Name: Greensboro Coliseum Complex
+Venue Location: Greensboro
+Date of the Event: 05/16/19--------------------------
+Venue Name: Amway Center
+Venue Location: Orlando
+Date of the Event: 05/16/19--------------------------
+Venue Name: James Brown Arena
+Venue Location: Augusta
+Date of the Event: 05/16/19--------------------------
+Venue Name: PPL Center
+Venue Location: Allentown
+Date of the Event: 05/16/19--------------------------
+Venue Name: Madison Square Garden
+Venue Location: New York
+Date of the Event: 05/16/19--------------------------
+Venue Name: DCU Center
+Venue Location: Worcester
+Date of the Event: 05/16/19--------------------------
+Venue Name: Hard Rock Live at Etess Arena
+Venue Location: Atlantic City
+Date of the Event: 05/16/19--------------------------
+Venue Name: Bell Centre
+Venue Location: Montreal
+Date of the Event: 05/16/19--------------------------
+Venue Name: Mohegan Sun Arena
+Venue Location: Uncasville
+Date of the Event: 05/16/19--------------------------
+Venue Name: Van Andel Arena
+Venue Location: Grand Rapids
+Date of the Event: 05/16/19--------------------------
+Venue Name: TaxSlayer Center
+Venue Location: Moline
+Date of the Event: 05/16/19--------------------------
+Venue Name: Resch Center
+Venue Location: Green Bay
+Date of the Event: 05/16/19--------------------------
+Venue Name: Xcel Energy Center
+Venue Location: St Paul
+Date of the Event: 05/16/19--------------------------
+Venue Name: Fargodome
+Venue Location: Fargo
+Date of the Event: 05/16/19--------------------------
+Venue Name: Scotiabank Saddledome
+Venue Location: Calgary
+Date of the Event: 05/16/19--------------------------
+Venue Name: Rogers Place
+Venue Location: Edmonton
+Date of the Event: 05/16/19--------------------------
+Venue Name: Rogers Arena
+Venue Location: Vancouver
+Date of the Event: 05/16/19--------------------------
+Venue Name: Nationwide Arena
+Venue Location: Columbus
+Date of the Event: 05/16/19--------------------------
+Venue Name: Tacoma Dome
+Venue Location: Tacoma
+Date of the Event: 05/16/19--------------------------
+Venue Name: Mandalay Bay Events Center
+Venue Location: Las Vegas
+Date of the Event: 05/16/19--------------------------
+Venue Name: Harveys Outdoor Amphitheatre At Lake Tahoe
+Venue Location: Stateline
+Date of the Event: 05/16/19--------------------------
+Venue Name: Hollywood Casino Amphitheatre - St. Louis
+Venue Location: Maryland Heights
+Date of the Event: 05/16/19--------------------------
+Venue Name: Starlight Theatre
+Venue Location: Kansas City
+Date of the Event: 05/16/19--------------------------
+Venue Name: Illinois State Fairgrounds Il State Fair
+Venue Location: Springfield
+Date of the Event: 05/16/19--------------------------
+Venue Name: Ravinia Festival
+Venue Location: Highland Park
+Date of the Event: 05/16/19--------------------------
+Venue Name: Iowa State Fair
+Venue Location: Des Moines
+Date of the Event: 05/16/19--------------------------
+Venue Name: Brandon Amphitheater
+Venue Location: Brandon
+Date of the Event: 05/16/19--------------------------
+Venue Name: SpringHill Suites by Marriott Orange Beach at The Wharf
+Venue Location: Orange Beach
+Date of the Event: 05/16/19--------------------------
+Venue Name: Tuscaloosa Amphitheater
+Venue Location: Tuscaloosa
+Date of the Event: 05/16/19--------------------------
+Venue Name: Daily's Place Amphitheater
+Venue Location: Jacksonville
+Date of the Event: 05/16/19--------------------------
+Venue Name: Fiserv Forum
+Venue Location: Milwaukee
+Date of the Event: 05/16/19--------------------------
+Venue Name: Merriweather Post Pavilion
+Venue Location: Columbia
+Date of the Event: 05/16/19--------------------------
+Venue Name: Bank of New Hampshire Pavilion
+Venue Location: Gilford
+Date of the Event: 05/16/19--------------------------
+Venue Name: Bethel Woods Center For the Arts
+Venue Location: Bethel
+Date of the Event: 05/16/19--------------------------
+Venue Name: Canfield Fairgrounds
+Venue Location: Canfield
+Date of the Event: 05/16/19--------------------------
+Venue Name: Bridgestone Arena
+Venue Location: Nashville
+Date of the Event: 05/16/19--------------------------
+Venue Name: Constellation Brands Performing Arts Center CMAC
+Venue Location: Canandaigua
+Date of the Event: 05/16/19--------------------------
+Venue Name: Canfield Fairgrounds
+Venue Location: Canfield
+Date of the Event: 05/16/19--------------------------
+Venue Name: Canfield Fairgrounds
+Venue Location: Canfield
+Date of the Event: 05/16/19--------------------------
+Artist(s): Lil Baby
+Song Name: Never Needed No Help
+Album Name: Harder Than Ever
+Preview Link: null--------------------------
+Movie Title: Gotti
+Year of Release: 2018
+IMDB Rating: 4.8
+Rotten Tomatoes Rating: undefined
+Country Produced: Canada, USA
+Language: English
+Plot: The story of crime boss John Gotti and his son.
+Actors/Actresses: John Travolta, Spencer Rocco Lofranco, Kelly Preston, Pruitt Taylor Vince

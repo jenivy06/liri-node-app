@@ -51,10 +51,21 @@ function concertThis(userInput) {
                     "\nDate of the Event: " + convertedDate
             console.log(concertResults);
         }
+            // append to log.txt
+        fs.appendFile("log.txt", concertResults, function(err) {
+            if (err) {
+                console.log(err);
+              }
+              else {
+                console.log("\n----Content Added to Log!----");
+              }
+        });
+    
     })
     .catch(function (error) {
         console.log(error);
     });
+
         
 
 }
@@ -75,6 +86,15 @@ function spotifySong (userInput) {
                     
             console.log(spotifyResults);
         }
+        // append to log.txt
+        fs.appendFile("log.txt", spotifyResults, function(err) {
+            if (err) {
+                console.log(err);
+              }
+              else {
+                console.log("\n----Content Added to Log!----");
+              }
+        });
     })
     .catch(function(err) {
         console.log(err);
@@ -91,7 +111,7 @@ function movieThis () {
         "\nMovie Title: " + response.data.Title + 
         "\nYear of Release: " + response.data.Year +
         "\nIMDB Rating: " + response.data.imdbRating +
-        "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
+        "\nRotten Tomatoes Rating: " + response.data.Ratings.Value +
         "\nCountry Produced: " + response.data.Country +
         "\nLanguage: " + response.data.Language +
         "\nPlot: " + response.data.Plot +
@@ -103,7 +123,7 @@ function movieThis () {
             console.log(err);
           }
           else {
-            console.log("Content Added to Log!");
+            console.log("\n----Content Added to Log!----");
           }
     })
     })
@@ -119,7 +139,7 @@ function movieThis () {
             "\nMovie Title: " + response.data.Title + 
             "\nYear of Release: " + response.data.Year +
             "\nIMDB Rating: " + response.data.imdbRating +
-            "\nRotten Tomatoes Rating: " + response.data.Ratings[1] +
+            "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
             "\nCountry Produced: " + response.data.Country +
             "\nLanguage: " + response.data.Language +
             "\nPlot: " + response.data.Plot +
