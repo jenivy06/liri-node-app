@@ -91,7 +91,7 @@ function movieThis () {
         "\nMovie Title: " + response.data.Title + 
         "\nYear of Release: " + response.data.Year +
         "\nIMDB Rating: " + response.data.imdbRating +
-        "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
+        "\nRotten Tomatoes Rating: " + response.data.Ratings[1] +
         "\nCountry Produced: " + response.data.Country +
         "\nLanguage: " + response.data.Language +
         "\nPlot: " + response.data.Plot +
@@ -101,6 +101,25 @@ function movieThis () {
     .catch(function (error) {
         console.log(error);
     });
+
+    if (userInput === undefined) {
+        axios.get("https://www.omdbapi.com/?t=Mr.+Nobody&y=&plot=short&apikey=trilogy")
+        .then(function(response) {
+            var nobodyResults = 
+            "--------------------------" +
+            "\nMovie Title: " + response.data.Title + 
+            "\nYear of Release: " + response.data.Year +
+            "\nIMDB Rating: " + response.data.imdbRating +
+            "\nRotten Tomatoes Rating: " + response.data.Ratings[1] +
+            "\nCountry Produced: " + response.data.Country +
+            "\nLanguage: " + response.data.Language +
+            "\nPlot: " + response.data.Plot +
+            "\nActors/Actresses: " + response.data.Actors +
+            "\nIf you haven't watched Mr. Nobody, then you should: <http://www.imdb.com/title/tt0485947/>" +
+            "\nIt's on Netflix!";
+        console.log(nobodyResults);
+        })
+    }
     
 }
 
@@ -123,3 +142,5 @@ function doThis() {
 
 });
 }
+
+// 
