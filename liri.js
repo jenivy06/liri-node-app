@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-// create initial variables
+// create initial global variables
 
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api'); 
@@ -91,12 +91,21 @@ function movieThis () {
         "\nMovie Title: " + response.data.Title + 
         "\nYear of Release: " + response.data.Year +
         "\nIMDB Rating: " + response.data.imdbRating +
-        "\nRotten Tomatoes Rating: " + response.data.Ratings[1] +
+        "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
         "\nCountry Produced: " + response.data.Country +
         "\nLanguage: " + response.data.Language +
         "\nPlot: " + response.data.Plot +
         "\nActors/Actresses: " + response.data.Actors;
     console.log(omdbResults);
+    // append to log.txt
+    fs.appendFile("log.txt", omdbResults, function(err) {   
+    if (err) {
+            console.log(err);
+          }
+          else {
+            console.log("Content Added to Log!");
+          }
+    })
     })
     .catch(function (error) {
         console.log(error);
@@ -142,6 +151,4 @@ function doThis() {
 
 });
 }
-
-// output concert results data to log.txt
 
