@@ -80,3 +80,26 @@ function spotifySong (userInput) {
         console.log(err);
     });
 }
+
+// run movieThis function
+
+function movieThis () {
+    axios.get("https://www.omdbapi.com/?t=" + userInput + "&y=&plot=short&apikey=trilogy")
+    .then(function(response) {
+        var omdbResults = 
+        "--------------------------" +
+        "\nMovie Title: " + response.data.Title + 
+        "\nYear of Release: " + response.data.Year +
+        "\nIMDB Rating: " + response.data.imdbRating +
+        "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
+        "\nCountry Produced: " + response.data.Country +
+        "\nLanguage: " + response.data.Language +
+        "\nPlot: " + response.data.Plot +
+        "\nActors/Actresses: " + response.data.Actors;
+    console.log(omdbResults);
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
+    
+}
