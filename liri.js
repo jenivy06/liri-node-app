@@ -143,4 +143,5 @@ function doThis() {
 });
 }
 
-// 
+// output concert results data to log.txt
+
