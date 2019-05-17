@@ -145,4 +145,7 @@ Rotten Tomatoes Rating: undefined
 Country Produced: Canada, USA
 Language: English
 Plot: The story of crime boss John Gotti and his son.
-Actors/Actresses: John Travolta, Spencer Rocco Lofranco, Kelly Preston, Pruitt Taylor Vince
+Actors/Actresses: John Travolta, Spencer Rocco Lofranco, Kelly Preston, Pruitt Taylor Vince--------------------------
+Venue Name: Canfield Fairgrounds
+Venue Location: Canfield
+Date of the Event: 05/17/19
