@@ -16,6 +16,8 @@ var fs = require('fs');
 var action = process.argv[2]; 
 var userInput = process.argv.slice(3).join(" "); 
 
+var divider = "\n-----------------------\n\n";
+
 //run function for command line arguments
 
 switch (action) {
@@ -52,7 +54,7 @@ function concertThis(userInput) {
             console.log(concertResults);
         }
             // append to log.txt
-        fs.appendFile("log.txt", concertResults, function(err) {
+        fs.appendFile("log.txt", concertResults + divider, function(err) {
             if (err) {
                 console.log(err);
               }
@@ -87,7 +89,7 @@ function spotifySong (userInput) {
             console.log(spotifyResults);
         }
         // append to log.txt
-        fs.appendFile("log.txt", spotifyResults, function(err) {
+        fs.appendFile("log.txt", spotifyResults + divider, function(err) {
             if (err) {
                 console.log(err);
               }
@@ -118,7 +120,7 @@ function movieThis () {
         "\nActors/Actresses: " + response.data.Actors;
     console.log(omdbResults);
     // append to log.txt
-    fs.appendFile("log.txt", omdbResults, function(err) {   
+    fs.appendFile("log.txt", omdbResults + divider, function(err) {   
     if (err) {
             console.log(err);
           }
