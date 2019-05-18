@@ -16,7 +16,7 @@ var fs = require('fs');
 var action = process.argv[2]; 
 var userInput = process.argv.slice(3).join(" "); 
 
-var divider = "\n-----------------------\n\n";
+var divider = "\r\n-----------------------\r\n";
 
 //run function for command line arguments
 
