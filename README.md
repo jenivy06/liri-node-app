@@ -8,7 +8,7 @@ Using four commands (listed below), along with parameters of their choosing, use
 
 ```concert-this```
 
-```spotify-this-song``
+```spotify-this-song```
 
 ```movie-this```
 
