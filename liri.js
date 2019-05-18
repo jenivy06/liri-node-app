@@ -160,15 +160,27 @@ function doThis() {
             return console.log(error);
           }
 
-    // We will then print the contents of data
-  console.log(data);
+    
 
   // Then split it by commas (to make it more readable)
   var dataArr = data.split(",");
 
   // We will then re-display the content as an array for later use.
-  console.log(dataArr);
+  console.log(dataArr[0]);
+  console.log(dataArr[1]);
+
+  // Take contents in arrays and turn into variables that will be passed into spotifySong function
+     
+    var verb = dataArr[0];
+    var noun = dataArr[1];
+    
+    if (verb === "spotify-this-song") {
+        spotifySong(noun);
+    } else {
+        throw err;
+    }
+    
+
 
 });
 }
-

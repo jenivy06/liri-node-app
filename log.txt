@@ -148,4 +148,24 @@ Plot: The story of crime boss John Gotti and his son.
 Actors/Actresses: John Travolta, Spencer Rocco Lofranco, Kelly Preston, Pruitt Taylor Vince--------------------------
 Venue Name: Canfield Fairgrounds
 Venue Location: Canfield
-Date of the Event: 05/17/19
+Date of the Event: 05/17/19--------------------------
+Movie Title: Cinderella
+Year of Release: 2015
+IMDB Rating: 6.9
+Rotten Tomatoes Rating: undefined
+Country Produced: USA, UK
+Language: English
+Plot: When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
+Actors/Actresses: Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter--------------------------
+Artist(s): The Weeknd
+Song Name: Call Out My Name
+Album Name: My Dear Melancholy,
+Preview Link: null--------------------------
+Artist(s): Mick Jensen
+Song Name: I Want It That Way
+Album Name: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=cea5f94835d7448da85b0b389e0dd215--------------------------
+Artist(s): Mick Jensen
+Song Name: I Want It That Way
+Album Name: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=cea5f94835d7448da85b0b389e0dd215
