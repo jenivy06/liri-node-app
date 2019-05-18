@@ -19,6 +19,7 @@ Using four commands (listed below), along with parameters of their choosing, use
 1. Open up your terminal (such as Git Bash).
 2. Navigate to the directory that includes the liri.js file.
 3. Run one of the following commands:
+
     ```node liri concert-this <concert of user's choice>```
 
     ```node liri spotify-this-song <song of user's choice>```
