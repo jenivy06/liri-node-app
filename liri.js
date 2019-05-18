@@ -14,7 +14,7 @@ var axios = require('axios');
 var fs = require('fs'); 
 
 var action = process.argv[2]; 
-var userInput = process.argv[3]; 
+var userInput = process.argv.slice(3).join(" "); 
 
 //run function for command line arguments
 
