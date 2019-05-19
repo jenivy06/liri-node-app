@@ -32,25 +32,25 @@ Using four commands (listed below), along with parameters of their choosing, use
 
 Here's what users see after running each of the commands:
 
-###### concert-this
+```node liri concert-this <concert of user's choice>```
 
 After accessing the Bandsintown API, users will see a list of all events and locations where the artist or band they inputted will perform. It can result in multiple records. See the screenshot below:
 
 ![concert-this](assets/images/concert-this.png)
 
-###### spotify-this-song
+ ```node liri spotify-this-song <song of user's choice>```
 
 After accessing the Spotify API, users will be able to see data available for their selected song, including artist(s) name, track name, album name and a preview link if available. See the screenshot below:
 
 ![spotify-this-song](assets/images/spotify-this-song.png)
 
-###### movie-this
+```node liri movie-this <movie of user's choice>```
 
 After accessing the OMDB API, users will be able to see data that's available for their selected movie, including movie title, year of release, IMDB rating, Rotten Tomatoes Rating, Country produced, language, plot and actors/actresses. See the screenshot below:
 
 ![movie-this](assets/images/movie-this.png)
 
-###### do-what-it-says
+```node liri do-what-it-says```
 
 This is a special command that will read instructions written in the file, random.txt. At present, the instructions say, "spotify-this-song,'I Want it That Way'". After running the command, the user will see the screenshot below:
 
