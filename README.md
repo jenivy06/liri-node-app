@@ -58,4 +58,6 @@ This is a special command that will read instructions written in the file, rando
 
 ## Bonus!
 
-For every command, the returned data is being written to a log. Users can find their saved data within log.txt.
+For every command, the returned data is being written to a log. Users can find their saved data within log.txt. See screenshot below:
+
+![log](assets/images/log.png)
